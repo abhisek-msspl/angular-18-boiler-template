@@ -1,0 +1,11 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false, // required
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
