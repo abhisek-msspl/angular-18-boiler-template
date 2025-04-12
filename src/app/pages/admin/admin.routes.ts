@@ -11,9 +11,4 @@ export const routes: Routes = [
     title: 'Dashboard',
     loadComponent: () => import('./dashboard/pages').then(c => c.DashboardComponent),
   },
-  {
-    path: 'not-found',
-    title: 'Not Found',
-    loadComponent: () => import('./common/pages').then(c => c.NotFoundComponent),
-  },
 ];
